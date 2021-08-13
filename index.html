@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='global_styles.css'>
+    <script src='script.js'></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Samuel Gresham</title>
+</head>
+<body>
+    <div class='page'>
+        <div class='banner'>
+            
+        </div>
+        <div class='page-header'>
+            <h1 class='big_page_text'>> Samuel Gresham</h1>
+        </div>
+        <hr>
+        <div class='content'>
+            <div class='content_center' onmouseover='hoverOver(-1);'>
+                <div id='intro'>
+                > Please select which page you wish to navigate to:
+                    <div class='option' onmouseover='hoverOver(0);' id='opt0' onclick='openPage("about-me")'>    $ goto about-me.html</div>
+                    <div class='option' onmouseover='hoverOver(1);' id='opt1' onclick='openPage("resume")'>    $ goto resume.html</div>
+                    <div class='option' onmouseover='hoverOver(2);' id='opt2' onclick='openPage("music")'>    $ goto music.html</div>
+                    <div class='option' onmouseover='hoverOver(3);' id='opt3' onclick='openPage("projects")'>    $ goto projects.html</div>
+                </div>
+                <div id='about-me' class='init_hidden'>
+                    <div class='option' id='opt4' onclick='openPage("intro")'>   $ go back</div> <br>
+                    <div class='row'>
+                    <div class='col'> <p class='paragraph'>Hi, I'm Samuel Gresham. <br> <br>
+                                         I'm a student studying a Bachelor of Advanced Science and a Bachelor of Computer Science at UNSW Sydney, majoring in Pharmacology. <br> <br>
+                                         In my spare time, I love to code, make music, go for walks and enjoy time with friends and family. <br><br>
+                                         I'm also an academic tutor and coach specialising in mathematics and chemistry. I love to teach students the beauty and satisfaction that comes from studying the sciences.<br><br>
+                                         <i>To navigate to another page, simply hit the 'go back' command at the top of the screen.</i></p>
+                    </div>
+                    <div class='col-sm'> <br><br>
+                        <img src='./assets/me.jpg' class='image'>
+                    </div>
+                    </div>
+                </div>
+                <div id='resume' class='init_hidden'>
+                    <div class='option' id='opt4' onclick='openPage("intro")'>   $ go back</div> <br>
+                    <h1>Samuel Gresham</h6>
+                    <hr><h3>> About Me</h3>
+                    <p class='paragraph'>Hello there. My name is Samuel, an academic coach and Advanced Science / Computer Science student. I'm a motivated and highly capable individial with a broad range of experience in the education, technology and scientific fields.</p>
+                    <hr><h3>> Employment</h3>
+                    <b>&ltNov 2020 - Present&gt Casual ICT Assistant at Newington College</b>
+                    <p class='paragraph'>Offering first-level ICT assistance to students and teachers, as well as fulfilling a variety of tasks assigned by the Service Delivery Manager.</p> 
+
+                    <b>&ltFeb 2021 - Present&gt Senior Academic Coach at Art of Smart Education</b>
+                    <p class='paragraph'>Delivering engaging and informative academic coaching to high school students both online and in-person.</p> 
+
+                    <hr><h3>> Volunteering</h3>
+                    <b>&ltJan 2021 - Present&gt Volunteer Tutor at RESN (Regional Education Support Network)</b>
+                    <p class='paragraph'>Offering text-based tutoring to disadvantaged regional and remote HSC students.</p> 
+
+                    <b>&ltMay 2021 - Present&gt HSC Chem Coordinator at RESN (Regional Education Support Network)</b>
+                    <p class='paragraph'>Organising a team of volunteers to produce written materials supporting regional and remote students.</p>
+
+                    <b>&ltJune 2021 - Present&gt Help Coordinator at RESN (Regional Education Support Network)</b>
+                    <p class='paragraph'>Coordinating a team of over 100 tutors in order to provide same-day assistance to regional and remote high school students.</p>
+
+                    <hr><h3>> Education</h3>
+                    <b>&lt2015 - 2020&gt High School (HSC) at Newington College Stanmore</b>
+                    <p class='paragraph'>Completed the HSC with 5 Band 6's, and a NESA All Rounder Award.</p>
+                    <b>&lt2015 - 2020&gt B. Advanced Science / B. Computer Science at UNSW Sydney</b>
+                    <p class='paragraph'>Currently studying in my first year of a 5-year double degree in Computer Science and Advanced Science.</p>
+
+                    <hr><h3>> Contact Me</h3>
+                    <p class='paragraph'>Interested in what you have read so far? I'd love to hear from you! <br>
+                        <b>Email: </b> samuelgresham12@gmail.com <br>
+                        <b>Phone: </b> 0448 399 900 <br><hr>
+                        <i>To navigate to another page, simply hit the 'go back' command at the top of the screen.</i><hr></p>
+                </div>
+                <div id='music' class='init_hidden'>
+                    <div class='option' id='opt4' onclick='openPage("intro")'>   $ go back</div> <br>
+                    <h1>What I've Been Listening To Recently...</h1>
+                    <p>> Hover over the album for the name and artist :)</p>
+                    <p>> Click on the song for a preview of the album</p>
+                    <div class='row'>
+                        <img src='./assets/museum_ballparkmusic.jpg' title='[ALBUM] Museum by Ball Park Music' id='album' onclick='play(0)'>
+                        <img src='./assets/sunlight_spaceyjane.png' title='[ALBUM] Sunlight by Spacey Jane' id='album' onclick='play(1)'>
+                        <img src='./assets/madlo_carseatheadrest.jpg' title='[ALBUM] Making a Door Less Open by Car Seat Headrest' id='album' onclick='play(2)'>
+                    </div> <br>
+                    <div class='row'>
+                        <img src='./assets/okcomputer_radiohead.png' id='album' title='[ALBUM] Ok Computer by Radiohead'  onclick='play(3)'>
+                        <img src='./assets/intheslight_spaceyjane.jpg' id='album' title='[EP] In The Slight by Spacey Jane' onclick='play(4)'>
+                        <img src='./assets/nwttaa_spaceyjane.jpg' id='album' title='[EP] No Way to Treat an Animal by Spacey Jane' onclick='play(5)'>
+                    </div> <br>
+                    <div class='row'> 
+                        <img src='./assets/isthisit_thestrokes.png' id='album' title='[ALBUM] Is This It by The Strokes' onclick='play(6)'>
+                        <img src='./assets/depressioncherry_beachhouse.jpg' id='album' title='[ALBUM] Depression Cherry by Beach House' onclick='play(7)'>
+                        <img src='./assets/bmp_ballparkmusic.png' id='album' title='[ALBUM] Ball Park Music by Ball Park Music' onclick='play(8)'>
+                    </div> <br>
+                </div>
+                <div id='projects' class='init_hidden'>
+                    <div class='option' id='opt4' onclick='openPage("intro")'>   $ go back</div> <br>
+                    Check back here for updates and links to projects. <br>
+                    <i>Nothing as of yet!</i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class='notification-box'>
+        <b id='ntext'>Notification Content Goes Here</b>
+    </div>
+</body>
+</html>
