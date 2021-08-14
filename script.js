@@ -4,28 +4,28 @@ function el(id) {
 
 function hoverOver (option) {
     if (option == 0) {
-        el('opt0').innerHTML = "> goto about-me.html";
-        el('opt1').innerHTML = "$ goto resume.html";
-        el('opt2').innerHTML = "$ goto music.html";
-        el('opt3').innerHTML = "$ goto projects.html";
+        el('opt0').innerHTML = "> goto about-me";
+        el('opt1').innerHTML = "$ goto resume";
+        el('opt2').innerHTML = "$ goto music";
+        el('opt3').innerHTML = "$ goto projects";
 
     } else if (option == 1) {
-        el('opt0').innerHTML = "$ goto about-me.html";
-        el('opt1').innerHTML = "> goto resume.html";
-        el('opt2').innerHTML = "$ goto music.html";
-        el('opt3').innerHTML = "$ goto projects.html";
+        el('opt0').innerHTML = "$ goto about-me";
+        el('opt1').innerHTML = "> goto resume";
+        el('opt2').innerHTML = "$ goto music";
+        el('opt3').innerHTML = "$ goto projects";
 
     } else if (option == 2) {
-        el('opt0').innerHTML = "$ goto about-me.html";
-        el('opt1').innerHTML = "$ goto resume.html";
-        el('opt2').innerHTML = "> goto music.html";
-        el('opt3').innerHTML = "$ goto projects.html";
+        el('opt0').innerHTML = "$ goto about-me";
+        el('opt1').innerHTML = "$ goto resume";
+        el('opt2').innerHTML = "> goto music";
+        el('opt3').innerHTML = "$ goto projects";
 
     } else if (option == 3) {
-        el('opt0').innerHTML = "$ goto about-me.html";
-        el('opt1').innerHTML = "$ goto resume.html";
-        el('opt2').innerHTML = "$ goto music.html";
-        el('opt3').innerHTML = "> goto projects.html";
+        el('opt0').innerHTML = "$ goto about-me";
+        el('opt1').innerHTML = "$ goto resume";
+        el('opt2').innerHTML = "$ goto music";
+        el('opt3').innerHTML = "> goto projects";
 
     }
 }
